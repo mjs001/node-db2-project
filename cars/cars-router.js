@@ -44,3 +44,5 @@ router.post("/", (req, res) => {
       res.status(500).json({ message: "failed to store data" });
     });
 });
+
+module.exports = router;
